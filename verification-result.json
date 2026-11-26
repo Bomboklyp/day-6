@@ -1,0 +1,135 @@
+{
+  "day": 6,
+  "status": "passed",
+  "testedAt": "2026-11-23T21:45:57.784Z",
+  "http": {
+    "createdId": 1044,
+    "statuses": [
+      200,
+      201,
+      400,
+      401,
+      403,
+      404,
+      409,
+      422
+    ],
+    "roles": 4
+  },
+  "browser": {
+    "startTime": "2026-11-23T21:45:21.413Z",
+    "duration": 36343.708,
+    "expected": 16,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "persistedAfterRestart": true,
+  "unitIntegration": {
+    "passed": 19,
+    "failed": 0,
+    "runner": "Vitest"
+  },
+  "checks": {
+    "typecheck": "passed",
+    "lint": "passed, zero warnings",
+    "build": "passed"
+  },
+  "hydration": {
+    "expectMismatch": false,
+    "warnings": []
+  },
+  "performance": {
+    "before": {
+      "measuredAt": "2026-11-23T21:31:08.608Z",
+      "runs": 9,
+      "medians": [
+        {
+          "path": "/",
+          "score": 89,
+          "lcpMs": 3600.269699999999,
+          "cls": 0.03734152777777778,
+          "tbtMs": 145,
+          "fcpMs": 925.7420999999999,
+          "ttfbMs": 16,
+          "transferBytes": 473271,
+          "scriptBytes": 294926,
+          "imageBytes": 6690,
+          "decodedScriptBytes": 280536
+        },
+        {
+          "path": "/help",
+          "score": 91,
+          "lcpMs": 928.5890999999999,
+          "cls": 0,
+          "tbtMs": 366.5941,
+          "fcpMs": 928.5890999999999,
+          "ttfbMs": 20,
+          "transferBytes": 490911,
+          "scriptBytes": 312449,
+          "imageBytes": 0,
+          "decodedScriptBytes": 286605
+        },
+        {
+          "path": "/articles/kak-sozdat-zayavku",
+          "score": 94,
+          "lcpMs": 921.3949,
+          "cls": 0.05882645833333334,
+          "tbtMs": 265,
+          "fcpMs": 921.3949,
+          "ttfbMs": 19,
+          "transferBytes": 464387,
+          "scriptBytes": 305041,
+          "imageBytes": 0,
+          "decodedScriptBytes": 282621
+        }
+      ]
+    },
+    "after": {
+      "measuredAt": "2026-11-23T21:47:20.796Z",
+      "runs": 9,
+      "medians": [
+        {
+          "path": "/",
+          "score": 98,
+          "lcpMs": 2285.0756999999994,
+          "cls": 0,
+          "tbtMs": 24.999999999999545,
+          "fcpMs": 761.1396,
+          "ttfbMs": 2,
+          "transferBytes": 186163,
+          "scriptBytes": 103698,
+          "imageBytes": 4622,
+          "decodedScriptBytes": 269937
+        },
+        {
+          "path": "/help",
+          "score": 99,
+          "lcpMs": 760.0707,
+          "cls": 0,
+          "tbtMs": 115,
+          "fcpMs": 760.0707,
+          "ttfbMs": 11,
+          "transferBytes": 215625,
+          "scriptBytes": 121439,
+          "imageBytes": 0,
+          "decodedScriptBytes": 273262
+        },
+        {
+          "path": "/articles/kak-sozdat-zayavku",
+          "score": 100,
+          "lcpMs": 757.8347000000001,
+          "cls": 0,
+          "tbtMs": 12.5,
+          "fcpMs": 757.8347000000001,
+          "ttfbMs": 1,
+          "transferBytes": 204755,
+          "scriptBytes": 116217,
+          "imageBytes": 0,
+          "decodedScriptBytes": 269806
+        }
+      ]
+    },
+    "budgetPassed": true
+  }
+}
