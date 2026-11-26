@@ -14,7 +14,7 @@ npm run db:init
 npm run dev
 ```
 
-Учебные аккаунты: `operator@workflow.local`, `client@workflow.local`, `agent@workflow.local`, `admin@workflow.local`. Пароль **Practice123!**. Заявка №1043 «не работает перчик» с описанием «Учебная проверка оборудования» сохранена.
+Учебные аккаунты: `operator@workflow.local`, `client@workflow.local`, `agent@workflow.local`, `admin@workflow.local`. Пароль **Practice123!**. Заявка №1043 «не работает перчик» с описанием «Витя не работает» сохранена.
 
 ## Новые страницы
 
